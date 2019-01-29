@@ -1,0 +1,16 @@
+<template name="8ce860dc">
+  <view class="_view data-v-7a739ef2 content">
+    <image class="_image data-v-7a739ef2 logo" src="{{imgs}}"></image>
+    <view class="_view data-v-7a739ef2">
+      <text class="_text data-v-7a739ef2 title">{{title}}</text>
+    </view>
+    <view class="_view data-v-7a739ef2">
+      <view class="_view data-v-7a739ef2">
+        <image class="_image data-v-7a739ef2 logo" src="{{imgs}}"></image>
+      </view>
+      <view class="_view data-v-7a739ef2">
+        <text class="_text data-v-7a739ef2 title">标题</text>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,22 @@
+<template name="0ae609a0">
+  <view class="_view data-v-3d25a2ac content">
+    <view bindtap="handleProxy" class="_view data-v-3d25a2ac zhuti" style="padding: 10rpx;" wx:key="item" key="{{item}}" data-eventid="{{'fxQ-0-'+index}}" data-comkey="{{$k}}" wx:for="{{x_list}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-3d25a2ac zuo">
+        <image class="_image data-v-3d25a2ac logo" mode="aspectFit" src="{{item.x_fengmian}}"></image>
+      </view>
+      <view class="_view data-v-3d25a2ac you">
+        <view class="_view data-v-3d25a2ac">
+          <text class="_text data-v-3d25a2ac title">{{item.x_name}}</text>
+        </view>
+        <view class="_view data-v-3d25a2ac">
+          <text class="_text data-v-3d25a2ac txt">{{item.jianjie}}</text>
+        </view>
+        <view style="display:flex;" class="_view data-v-3d25a2ac">
+          <view style="font-size: 30rpx; text-align: center;width: 50%;flex:none;" class="_view data-v-3d25a2ac">作者：{{item.zuozhe}}</view>
+          <view style="font-size: 30rpx;text-align: center;width: 50%;flex:1; " class="_view data-v-3d25a2ac">{{item.zishu}}字</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-3d25a2ac">标题：{{titles}}</view>
+  </view>
+</template>

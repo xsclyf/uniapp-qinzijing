@@ -1,0 +1,10 @@
+<template name="75a86db8">
+  <view style="height: 170px;padding-top: 30px;background-color: #DCDCDC;" class="_view data-v-7e0d7fa6">
+    <view style="margin-left:120px;" class="_view data-v-7e0d7fa6">
+      <view class="_view data-v-7e0d7fa6 touxiang">
+        <image style="height: 100%;width: 100%;border-radius: 50%" src="{{tupian}}" class="_image data-v-7e0d7fa6"></image>
+      </view>
+    </view>
+    <view class="_view data-v-7e0d7fa6 name">{{value}}</view>
+  </view>
+</template>
